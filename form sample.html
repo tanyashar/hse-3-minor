@@ -1,0 +1,57 @@
+<form  action="./py_sql_pages.py"   target='_self' method='get'>
+
+<p>
+<input type="Hidden" name="function" value="page">
+<input type="Hidden" name="page_id" value="2">
+Фамилия: <input type="Text" name="last_name" value="Петров"   size=8 >
+Имя: <input type="Text"  name="first_name" value=""    size=10 >
+Отчество: <input type="Text"  name="second_name" value="Петрович"    size=10 >
+</p>
+
+<p>
+Место проживания: 
+<input type="Radio" name="place" value="Moscow" >Москва
+<input type="Radio" name="place" value="Nizhny">Нижний
+<input type="Radio" name="place" value="Бор" checked>Бор
+</p>
+
+<p>
+Опыт работы:
+<input type="Checkbox" name="market"  value="Y" checked >Маркетологом
+<input type="Checkbox" name="есоном"  value="Y" checked >Экономистом
+<input type="Checkbox" name="manager"  value="Y">менеджер
+<input type="Checkbox" name="programmer"  value="Y">программист
+</p>
+
+<p>
+Знание английского
+<select name="languages">
+	<OPTION value="good">Владею свободно</OPTION> 
+	<OPTION value="bad">Читаю и перевожу со словарем</OPTION> 
+	<OPTION value="No">Не владею</OPTION> 
+	</select>
+</p>
+
+<p>Дополнительная информация: 
+<br><TEXTAREA name="info" value="TEXTAREA" rows=4 cols=24></TEXTAREA>
+</p>
+
+
+<p>
+Пароль: <input type="Password" name="password" value="123"  size=9>
+</p>
+
+<!--Нижерасположенные фрагменты перемещать нельзя-->
+<p>
+<input type="Hidden" name="file_name" value="file.txt" >
+</p>
+
+<p>
+<input type="reset"  name="reset" value="Обновить">
+<input type="submit" name="submit" value="Отправить">
+<!--
+<input type="image" src="src.jpg" name="submit" value="submit">
+-->
+</p>
+
+</form>

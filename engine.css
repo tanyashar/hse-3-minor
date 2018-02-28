@@ -1,0 +1,168 @@
+html {
+	background-color: lightyellow;
+}
+
+
+
+.common_head {
+	display: inline;
+}
+
+
+.active{
+	background-color: #ffe6b3;
+}
+
+.common_footer{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+	display: block;
+	font-family: COURIER;
+}
+
+.common {
+	margin-top: 40px;
+	margin-left: 150px;
+	display: block;
+}
+
+p {
+	font-size: 15px;
+	font-family: COURIER;
+	color: #4d4d33;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: bold;
+	font-family: COURIER;
+	color: navy;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-family: COURIER;
+	color: navy;
+}
+
+h3 {
+	padding-left: 50px;
+	font-family: COURIER;
+	color: teal;
+	padding-top: 50px;
+}
+
+.descr {
+	font-family: COURIER;
+	font-size: 18px;
+	font-weight: bold;
+	color: teal;
+	padding-left: 0;
+}
+
+ul.outp li{
+	margin-left: 25px;
+	display:inline-block;
+	font-size: 20px;
+	margin-right: 25px;
+}
+
+ul {
+	padding-left: 70px;
+}
+
+ul li{
+	font-family: COURIER;
+	color: #4d4d33;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.classif_species li {
+	font-family: COURIER;
+	color: navy;
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.classif_species > li {
+	font-family: COURIER;
+	color: navy;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.classif_species > li > ul > li {
+	margin-bottom: 0;
+}
+
+
+li {
+	font-family: COURIER;
+	font-size: 17px;
+	font-weight: bold;
+	color: teal;
+}
+
+.lst {
+	padding-left: 100px;
+}
+
+.mainp {
+	margin-left: 100px;
+	font-family: COURIER;
+	font-size: 16px;
+	color: #4d4d33;	
+}
+
+.links {
+	display: inline-block;
+	font-size: 20px;
+	font-family: COURIER;
+	margin-left: 50px;
+	text-align: center;
+}
+
+a:link {
+	color: navy;
+	text-decoration: none;
+}
+
+a:visited {
+	color: teal;
+	text-decoration: none;
+}
+
+a:hover {
+	color: teal;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a:active {
+	color: black;
+	text-decoration: underline;
+}
+
+table {
+	border: 2px solid teal;
+	border-collapse: collapse;
+	margin-left: 50px;
+	color: teal;
+	font-family: COURIER;
+	font-size: 20px;
+	margin-top: 20px;	
+}
+
+td {
+	padding: 15px;
+	border: 1px solid teal;
+	border-collapse: collapse;
+}
+
